@@ -30,7 +30,7 @@ def test_create_user_validation(apis):
     print(responseget.json())
     assert responseget.status_code == 200
     assert responseget.json()['name']=='Clementina DuBuque'
-
+#gi
 
 def test_update_users(apis,load_user_data):
     '''data_user = {
